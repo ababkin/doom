@@ -95,7 +95,9 @@
        emacs-lisp        ; drown in parentheses
        ;;ess               ; emacs speaks statistics
        ;;go                ; the hipster dialect
-       (haskell +intero) ; a language that's lazier than I am
+       ;; (haskell +dante) ; a language that's lazier than I am
+       haskell ; a language that's lazier than I am
+       ;; haskell ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        idris             ;
        ;;(java +meghanada) ; the poster child for carpal tunnel syndrome
@@ -117,18 +119,18 @@
        ;;perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
-       purescript        ; javascript, but functional
+       ; purescript        ; javascript, but functional
        ;;python            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
        ;;ruby              ; 1.step do {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       ; rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        (sh +fish)        ; she sells (ba|z|fi)sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
        ;;swift             ; who asked for emoji variables?
-       web               ; the tubes
+       ; web               ; the tubes
        ;;vala              ; GObjective-C
 
        ;; Applications are complex and opinionated modules that transform Emacs
